@@ -1,0 +1,196 @@
+.purple {
+    text-align:center;
+    margin-top:60px;
+    
+    color: oklch(0.627 0.265 303.9);
+    font-size: 48px;
+    margin: 0px 0px 32px;
+    font-family: "Tektur";
+}
+.pink {
+    text-align:center;
+    margin-top:60px;
+    color: oklch(0.656 0.241 354.308);
+    font-size: 48px;
+    margin: 0px 0px 32px;
+    font-family: "Tektur";
+}
+body {
+    text-align:center;
+    background: linear-gradient(to bottom, #000000 0%, #2c004e 50%, #000000 100%);
+    color: #d3d3d3;
+
+    font-family: 'Segoe UI', sans-serif;
+}
+.box1{
+    height: 400px;
+    width: 200px;
+    background-color: oklch(0.13 0.028 261.692);
+    border: 1px solid white;
+    padding: 24px;
+    border-radius: 12px;
+    margin:15px;
+}
+.box2{
+    height:250px;
+    width: 180x;
+    margin: 0px 0px 16px;
+    background-image: url("chair.jpg");
+    background-size:cover;
+    align-items:center;
+    border: 1px solid oklch(0.627 0.265 303.9);
+    border-radius: 12px;
+    
+
+}
+.box3{
+    height:250px;
+    width: 180x;
+    margin: 0px 0px 16px;
+    background-image: url("vice.jpg");
+    background-size:cover;
+    align-items:center;
+    border: 1px solid oklch(0.627 0.265 303.9);
+    border-radius: 12px;
+
+}
+.box4{
+    height:250px;
+    width: 180x;
+    margin: 0px 0px 16px;
+    background-image: url("hrd.jpg");
+    background-size:cover;
+    align-items:center;
+    border: 1px solid oklch(0.627 0.265 303.9);
+    border-radius: 12px;
+
+}
+.flex{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+}
+.box5{
+    height:250px;
+    width: 180x;
+    margin: 0px 0px 16px;
+    background-image: url("md.jpg");
+    background-size:cover;
+    align-items:center;
+    border: 1px solid oklch(0.627 0.265 303.9);
+    border-radius: 12px;
+}
+.box6{
+    height:250px;
+    width: 180x;
+    margin: 0px 0px 16px;
+    background-image: url("gensec.jpg");
+    background-size:cover;
+    align-items:center;
+    border: 1px solid oklch(0.627 0.265 303.9);
+    border-radius: 12px;
+}
+.box7{
+    height:250px;
+    width: 180x;
+    margin: 0px 0px 16px;
+    background-image: url("tres.jpg");
+    background-size:cover;
+    align-items:center;
+    border: 1px solid oklch(0.627 0.265 303.9);
+    border-radius: 12px;
+}
+.box8{
+    height:250px;
+    width: 180x;
+    margin: 0px 0px 16px;
+    background-image: url("techsec.jpg");
+    background-size:cover;
+    align-items:center;
+    border: 1px solid oklch(0.627 0.265 303.9);
+    border-radius: 12px;
+}
+.box1:hover{
+    height:430px;
+    width:230px;
+    border-radius: 12px;
+    transition: 0.25s;
+
+}
+a{
+    color: white;
+    margin: 16px;
+    text-decoration:none;
+}
+.navbar{
+    border-left: 2px solid oklch(0.714 0.203 305.504); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    height:600px;
+    width: 150px;
+    position: fixed;
+    top:10px;
+    margin:8px;
+    font-family: Orbitron, sans-serif;
+
+    
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-bottom:15px;
+}
+.line {
+    width: 40px; 
+    height: 3px; 
+    background-color: oklch(0.714 0.203 305.504); 
+    border: none;
+    align-items: center; 
+    margin: 0 auto;
+
+  }
+.x {
+    border: none;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-in;
+
+    
+}
+.x:hover{
+    transform:scaleX(2);
+    transition: 1s;
+   
+
+}
+.sc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+h2{
+    color: oklch(0.518 0.253 323.949);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+h3{
+    color: oklch(0.827 0.119 306.383);
+    font-size:18px;
+    font-family:sans-serif;
+}
+p{
+    color: oklch(0.946 0.033 307.174);
+    font-size:14px;
+    font-family:sans-serif;
+
+}
+.explore{
+    color: 0klch(0.827 0.119 306.383);
+    font-size: 16px;
+}
